@@ -7,6 +7,10 @@
     <properties resource="db.properties">
         <property name="username" value="root"/>
     </properties>
+    
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
 
 
     <!--为完全限定类名起别名-->
@@ -26,7 +30,6 @@
         </environment>
     </environments>
     <mappers>
-<!--        <mapper resource="com/kuang/mapper/UserMapper.xml"/>-->
-        <package name="com.kuang.mapper"/>
+        <mapper class="com.kuang.mapper.UserMapper"/>
     </mappers>
 </configuration>

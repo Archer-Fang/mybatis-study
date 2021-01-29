@@ -25,8 +25,9 @@
             </dataSource>
         </environment>
     </environments>
+
     <mappers>
-<!--        <mapper resource="com/kuang/mapper/UserMapper.xml"/>-->
-        <package name="com.kuang.mapper"/>
+        <mapper resource="com/kuang/mapper/UserMapper.xml"/>
+<!--        <package name="com.kuang.mapper"/>-->
     </mappers>
 </configuration>
