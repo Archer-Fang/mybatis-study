@@ -1,0 +1,6 @@
+2021-01-29 21:06:30  [ main:0 ] - [ INFO ]  info:进入了log4j
+2021-01-29 21:06:30  [ main:6 ] - [ DEBUG ]  debug:进入了log4j
+2021-01-29 21:06:30  [ main:7 ] - [ ERROR ]  error:进入了log4j
+2021-01-29 21:07:31  [ main:0 ] - [ INFO ]  info:进入了log4j
+2021-01-29 21:07:31  [ main:5 ] - [ DEBUG ]  debug:进入了log4j
+2021-01-29 21:07:31  [ main:6 ] - [ ERROR ]  error:进入了log4j
