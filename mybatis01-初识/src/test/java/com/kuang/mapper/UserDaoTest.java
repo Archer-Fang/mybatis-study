@@ -90,7 +90,7 @@ public class UserDaoTest {
     public void deleteUser(){
         SqlSession sqlSession = MybatisUtils.getSession();
         UserMapper userDao = sqlSession.getMapper(UserMapper.class);
-        Integer integer = userDao.deleteUser(4);
+        Integer integer = userDao.deleteUser(3);
         sqlSession.commit();
         System.out.println(integer);
 
